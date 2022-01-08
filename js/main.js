@@ -40,10 +40,10 @@ var main = {
         "transform",
         "translate3d(" + ivalueX + "px," + ivalueY + "px, 0)"
       )
-      skill.css(
-        "transform",
-        "translate3d(" + ivalueX + "px," + ivalueY + "px, 0)"
-      )
+      // skill.css(
+      //   "transform",
+      //   "translate3d(" + ivalueX + "px," + ivalueY + "px, 0)"
+      // )
     })
   },
 }
