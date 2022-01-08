@@ -35,7 +35,7 @@ var main = {
       var ivalueY = (e.pageY * -1) / 30
       var cvalueX = (e.pageX * -1) / 40
       var cvalueY = (e.pageY * -1) / 60
-      console.log("circle")
+      console.log("parllax")
       circle.css(
         "transform",
         "translate3d(" + ivalueX + "px," + ivalueY + "px, 0)"
