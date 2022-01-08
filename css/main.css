@@ -31,42 +31,42 @@ section {
 }
 
 section.hero {
-  padding-bottom: 250px;
+  padding-bottom: 15.625rem;
 }
-@media (max-width: 1439px) {
+@media (max-width: 89.9375rem) {
   section.hero {
-    padding-bottom: 150px;
+    padding-bottom: 9.375rem;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
   section.hero {
-    padding-bottom: 150px;
+    padding-bottom: 9.375rem;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 26.5625rem) {
   section.hero {
-    padding-bottom: 100px;
+    padding-bottom: 6.25rem;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 23.4375rem) {
   section.hero {
-    padding-bottom: 120px;
+    padding-bottom: 7.5rem;
   }
 }
 section.hero h1 {
   font-family: "Tangerine", cursive;
-  font-size: 72px;
-  margin-bottom: 50px;
+  font-size: 4.5rem;
+  margin-bottom: 3.125rem;
 }
-@media (max-width: 1439px) {
+@media (max-width: 89.9375rem) {
   section.hero h1 {
-    font-size: 48px;
-    margin-bottom: 35px;
+    font-size: 3rem;
+    margin-bottom: 2.1875rem;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
   section.hero h1 {
-    font-size: 44px;
+    font-size: 2.75rem;
   }
 }
 section.hero .lamp-wrapper {
@@ -80,19 +80,19 @@ section.hero .lamp-wrapper {
 section.hero .lamp-wrapper .lamp {
   position: sticky;
 }
-@media (max-width: 1439px) {
+@media (max-width: 89.9375rem) {
   section.hero .lamp-wrapper .lamp img {
     height: 70%;
     width: 70%;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
   section.hero .lamp-wrapper .lamp img {
     height: 50%;
     width: 50%;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 26.5625rem) {
   section.hero .lamp-wrapper .lamp img {
     height: 70%;
     width: 70%;
@@ -108,33 +108,33 @@ section.hero .logo-wrapper {
 }
 section.hero .logo-wrapper .logo {
   text-align: center;
-  padding-top: 90px;
-  padding-bottom: 100px;
+  padding-top: 5.625rem;
+  padding-bottom: 6.25rem;
 }
-@media (max-width: 1439px) {
+@media (max-width: 89.9375rem) {
   section.hero .logo-wrapper .logo {
-    padding-top: 0px;
-    padding-bottom: 40px;
+    padding-top: 0rem;
+    padding-bottom: 2.5rem;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 26.5625rem) {
   section.hero .logo-wrapper .logo {
-    padding-top: 50px;
+    padding-top: 3.125rem;
   }
 }
-@media (max-width: 1439px) {
+@media (max-width: 89.9375rem) {
   section.hero .logo-wrapper .logo img {
     height: 75%;
     width: 75%;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
   section.hero .logo-wrapper .logo img {
     height: 50%;
     width: 50%;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 26.5625rem) {
   section.hero .logo-wrapper .logo img {
     height: 70%;
     width: 70%;
@@ -178,59 +178,64 @@ section.hero .waves-wrapper {
             transform: scale(1.2);
   }
 }
-@media (max-width: 1439px) {
+@media (max-width: 89.9375rem) {
   section.hero .waves-wrapper .waves {
     -webkit-transform: scale(0.5);
             transform: scale(0.5);
   }
 }
 section.hero .waves-wrapper .waves .wave-1 {
-  margin-left: -50px;
+  margin-left: -3.125rem;
 }
 section.hero .waves-wrapper .waves .wave-3 {
-  margin-left: 30px;
+  margin-left: 1.875rem;
 }
 
 section.intro {
-  padding-top: 155px;
-  padding-bottom: 200px;
+  padding-top: 9.6875rem;
+  padding-bottom: 12.5rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 61.9375rem) {
   section.intro {
-    padding-bottom: 100px;
+    padding-bottom: 6.25rem;
+  }
+}
+@media (max-width: 26.625rem) {
+  section.intro {
+    padding-top: 3.125rem;
   }
 }
 section.intro h1 {
   font-family: "Comfortaa", cursive;
-  font-size: 48px;
+  font-size: 3rem;
 }
 section.intro p {
   font-family: "Comfortaa", cursive;
-  font-size: 19.2px;
+  font-size: 1.2rem;
 }
-@media (max-width: 1439px) {
+@media (max-width: 89.9375rem) {
   section.intro .illus {
     -webkit-transform: scale(0.7);
             transform: scale(0.7);
   }
 }
-@media (max-width: 991px) {
+@media (max-width: 61.9375rem) {
   section.intro .illus {
     -webkit-transform: scale(0.7);
             transform: scale(0.7);
     position: relative;
-    left: -150px;
+    left: -9.375rem;
   }
 }
-@media (max-width: 769px) {
+@media (max-width: 48.0625rem) {
   section.intro .illus {
     -webkit-transform: scale(0.5);
             transform: scale(0.5);
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 26.5625rem) {
   section.intro .illus {
-    left: -20px;
+    left: -1.25rem;
   }
 }
 section.intro .illus .man {
@@ -238,7 +243,7 @@ section.intro .illus .man {
   margin: 0;
   z-index: 2;
 }
-@media (max-width: 426px) {
+@media (max-width: 26.625rem) {
   section.intro .illus .man {
     position: relative;
   }
@@ -247,18 +252,18 @@ section.intro .illus .circle {
   position: absolute;
   z-index: 1;
 }
-@media (max-width: 426px) {
+@media (max-width: 26.625rem) {
   section.intro .illus .circle {
     position: relative;
-    margin-top: -750px;
+    margin-top: -46.875rem;
   }
 }
 section.intro .element {
-  font-size: 144px;
+  font-size: 9rem;
   font-weight: 700;
   color: #05ffa1;
   font-family: "Comfortaa", cursive;
-  height: 222px;
+  height: 13.875rem;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -269,64 +274,64 @@ section.intro .element {
   vertical-align: middle;
   z-index: 2;
 }
-@media (max-width: 1439px) {
+@media (max-width: 89.9375rem) {
   section.intro .element {
-    font-size: 80px;
+    font-size: 5rem;
   }
 }
-@media (max-width: 769px) {
+@media (max-width: 48.0625rem) {
   section.intro .element {
-    padding-top: 25px;
-    font-size: 60px;
+    padding-top: 1.5625rem;
+    font-size: 3.75rem;
   }
 }
 section.intro .name {
-  margin-bottom: 300px;
+  margin-bottom: 18.75rem;
   z-index: 3;
 }
-@media (max-width: 769px) {
+@media (max-width: 48.0625rem) {
   section.intro .name {
-    margin-bottom: 100px;
+    margin-bottom: 6.25rem;
   }
 }
-@media (max-width: 769px) {
+@media (max-width: 48.0625rem) {
   section.intro .name h1 {
-    font-size: 36px;
+    font-size: 2.25rem;
   }
 }
-@media (max-width: 426px) {
+@media (max-width: 26.625rem) {
   section.intro .name h1 {
-    font-size: 29px;
+    font-size: 1.8125rem;
   }
 }
-@media (max-width: 769px) {
+@media (max-width: 48.0625rem) {
   section.intro .name p {
-    font-size: 15px;
+    font-size: 0.9375rem;
   }
 }
 section.intro .name img {
-  margin-top: 20px;
-  padding-left: 50px;
+  margin-top: 1.25rem;
+  padding-left: 3.125rem;
 }
 
 section.skills {
-  padding-top: 180px;
+  padding-top: 11.25rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 61.9375rem) {
   section.skills {
-    padding-top: 100px;
+    padding-top: 6.25rem;
   }
 }
 section.skills h1 {
   font-family: "Tangerine", cursive;
   font-style: normal;
   font-weight: bold;
-  font-size: 144px;
-  line-height: 144px;
+  font-size: 9rem;
+  line-height: 9rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 61.9375rem) {
   section.skills h1 {
-    font-size: 96px;
+    font-size: 6rem;
     text-align: center;
   }
 }
@@ -347,23 +352,23 @@ section.skills .skills-wrapper {
       -ms-flex-align: center;
           align-items: center;
   justify-items: center;
-  padding-top: 150px;
-  padding-bottom: 200px;
+  padding-top: 9.375rem;
+  padding-bottom: 12.5rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 61.9375rem) {
   section.skills .skills-wrapper {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 6.25rem;
+    padding-bottom: 6.25rem;
   }
 }
 section.skills .skills-wrapper .skill-card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  max-height: 173px;
-  max-width: 173px;
-  border-radius: 30px;
-  margin-bottom: 45px;
+  max-height: 10.8125rem;
+  max-width: 10.8125rem;
+  border-radius: 1.875rem;
+  margin-bottom: 2.8125rem;
   -webkit-animation: fill 10s infinite;
           animation: fill 10s infinite;
   -webkit-animation-timing-function: ease-in-out;
@@ -401,7 +406,7 @@ section.skills .skills-wrapper .skill-card img {
   margin: auto;
   max-width: 100%;
 }
-@media (max-width: 769px) {
+@media (max-width: 48.0625rem) {
   section.skills .skills-wrapper .skill-card img {
     height: 50%;
     max-width: 50%;
@@ -411,8 +416,8 @@ section.skills .skills-wrapper .card-hide {
   display: none;
 }
 section.skills .skills-wrapper .card-hide h1 {
-  font-size: 20px;
-  line-height: 25px;
+  font-size: 1.25rem;
+  line-height: 1.5625rem;
   font-family: "Comfortaa", cursive;
   text-align: center;
 }
@@ -435,22 +440,22 @@ section.contact h1 {
   font-family: "Tangerine", cursive;
   font-style: normal;
   font-weight: bold;
-  font-size: 144px;
-  line-height: 144px;
+  font-size: 9rem;
+  line-height: 9rem;
 }
-@media (max-width: 991px) {
+@media (max-width: 61.9375rem) {
   section.contact h1 {
-    font-size: 96px;
+    font-size: 6rem;
     text-align: center;
   }
 }
 section.contact .contact-wrapper {
-  padding-top: 120px;
-  padding-bottom: 150px;
+  padding-top: 7.5rem;
+  padding-bottom: 9.375rem;
 }
-@media (max-width: 426px) {
+@media (max-width: 26.625rem) {
   section.contact .contact-wrapper {
-    margin: 0 25px;
+    margin: 0 1.5625rem;
   }
 }
 section.contact .contact-wrapper .contact-icons {
@@ -460,7 +465,7 @@ section.contact .contact-wrapper .contact-icons {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-size: 60px;
+  font-size: 3.75rem;
 }
 section.contact .contact-wrapper .contact-icons a {
   color: black;
@@ -471,12 +476,12 @@ section.contact .contact-wrapper .contact-icons a:hover {
           transform: scale(1.3);
 }
 section.contact .contact-wrapper .contact-icons h3 {
-  font-size: 25px;
+  font-size: 1.5625rem;
   font-family: "Comfortaa", cursive;
 }
-@media (max-width: 426px) {
+@media (max-width: 26.625rem) {
   section.contact .contact-wrapper .contact-icons h3 {
-    font-size: 16px;
+    font-size: 1rem;
   }
 }
 
@@ -485,84 +490,84 @@ section.quote {
 }
 section.quote #quote-box {
   width: 100%;
-  max-height: 500px;
-  padding-bottom: 50px;
+  max-height: 31.25rem;
+  padding-bottom: 3.125rem;
   text-align: center;
   background-color: #414361;
-  padding-top: 100px;
-  border-radius: 5px;
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-top: 6.25rem;
+  border-radius: 0.3125rem;
+  padding-left: 9.375rem;
+  padding-right: 9.375rem;
 }
-@media (max-width: 426px) {
+@media (max-width: 26.625rem) {
   section.quote #quote-box {
     padding-left: 0;
     padding-right: 0;
-    padding-top: 50px;
+    padding-top: 3.125rem;
   }
 }
 section.quote #quote-box #text {
-  margin-bottom: 25px;
-  font-size: 50px;
-  line-height: 50px;
+  margin-bottom: 1.5625rem;
+  font-size: 3.125rem;
+  line-height: 3.125rem;
   font-family: "Comfortaa", cursive;
-  margin-top: 50px;
+  margin-top: 3.125rem;
 }
-@media (max-width: 1441px) {
+@media (max-width: 90.0625rem) {
   section.quote #quote-box #text {
-    font-size: 45px;
-    line-height: 50px;
+    font-size: 2.8125rem;
+    line-height: 3.125rem;
   }
 }
-@media (max-width: 1200px) {
+@media (max-width: 75rem) {
   section.quote #quote-box #text {
-    font-size: 36px;
-    line-height: 40px;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 }
-@media (max-width: 991px) {
+@media (max-width: 61.9375rem) {
   section.quote #quote-box #text {
-    font-size: 30px;
-    margin: 0 15px;
-    line-height: 35px;
+    font-size: 1.875rem;
+    margin: 0 0.9375rem;
+    line-height: 2.1875rem;
   }
 }
-@media (max-width: 426px) {
+@media (max-width: 26.625rem) {
   section.quote #quote-box #text {
-    font-size: 27px;
-    line-height: 30px;
+    font-size: 1.6875rem;
+    line-height: 1.875rem;
   }
 }
-@media (max-width: 376px) {
+@media (max-width: 23.5rem) {
   section.quote #quote-box #text {
-    font-size: 24px;
-    line-height: 30px;
+    font-size: 1.5rem;
+    line-height: 1.875rem;
   }
 }
 section.quote #quote-box #author {
-  margin-bottom: 20px;
-  font-size: 40px;
-  line-height: 30px;
+  margin-bottom: 1.25rem;
+  font-size: 2.5rem;
+  line-height: 1.875rem;
   font-family: "Tangerine", cursive;
 }
-@media (max-width: 1441px) {
+@media (max-width: 90.0625rem) {
   section.quote #quote-box #author {
-    font-size: 36px;
+    font-size: 2.25rem;
   }
 }
-@media (max-width: 1200px) {
+@media (max-width: 75rem) {
   section.quote #quote-box #author {
-    font-size: 30px;
+    font-size: 1.875rem;
   }
 }
-@media (max-width: 991px) {
+@media (max-width: 61.9375rem) {
   section.quote #quote-box #author {
-    font-size: 25px;
+    font-size: 1.5625rem;
   }
 }
-@media (max-width: 376px) {
+@media (max-width: 23.5rem) {
   section.quote #quote-box #author {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 }
 section.quote #quote-box .buttons {
@@ -575,12 +580,12 @@ section.quote #quote-box .buttons {
   -ms-flex-line-pack: start;
       align-content: flex-start;
   font-family: "Comfortaa", cursive;
-  bottom: 0.3125rem;
+  bottom: 5px;
 }
 section.quote #quote-box .buttons button {
-  padding: 15px;
-  font-size: 25px;
-  border-radius: 15px;
+  padding: 0.9375rem;
+  font-size: 1.5625rem;
+  border-radius: 0.9375rem;
   background-color: transparent;
   color: white;
   border-color: transparent;

@@ -1,15 +1,6 @@
 @import "global.scss";
 @import "fonts.scss";
 
-@media (max-width: 1439px) {
-}
-@media (max-width: 768px) {
-}
-@media (max-width: 425px) {
-}
-@media (max-width: 375px) {
-}
-
 @media (max-width: 89.9375rem) {
 }
 @media (max-width: 48rem) {
@@ -17,6 +8,15 @@
 @media (max-width: 26.5625rem) {
 }
 @media (max-width: 23.4375rem) {
+}
+
+@media (max-width: 1439px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 425px) {
+}
+@media (max-width: 375px) {
 }
 
 ::-webkit-scrollbar {
@@ -29,37 +29,37 @@
 }
 
 section {
-  // padding-bottom: 200px;
+  // padding-bottom: 12.5rem;
   overflow: hidden;
 }
 section.hero {
-  padding-bottom: 250px;
-  @media (max-width: 1439px) {
-    padding-bottom: 150px;
+  padding-bottom: 15.625rem;
+  @media (max-width: 89.9375rem) {
+    padding-bottom: 9.375rem;
   }
-  @media (max-width: 768px) {
-    padding-bottom: 150px;
+  @media (max-width: 48rem) {
+    padding-bottom: 9.375rem;
   }
-  @media (max-width: 425px) {
-    padding-bottom: 100px;
+  @media (max-width: 26.5625rem) {
+    padding-bottom: 6.25rem;
   }
-  @media (max-width: 375px) {
-    padding-bottom: 120px;
+  @media (max-width: 23.4375rem) {
+    padding-bottom: 7.5rem;
   }
 
   h1 {
     font-family: $tangerine;
-    font-size: 72px;
-    // padding-left: 53px;
-    margin-bottom: 50px;
+    font-size: 4.5rem;
+    // padding-left: 3.3125rem;
+    margin-bottom: 3.125rem;
 
-    @media (max-width: 1439px) {
-      font-size: 48px;
-      margin-bottom: 35px;
+    @media (max-width: 89.9375rem) {
+      font-size: 3rem;
+      margin-bottom: 2.1875rem;
     }
 
-    @media (max-width: 768px) {
-      font-size: 44px;
+    @media (max-width: 48rem) {
+      font-size: 2.75rem;
     }
   }
   .lamp-wrapper {
@@ -68,15 +68,15 @@ section.hero {
     .lamp {
       position: sticky;
       img {
-        @media (max-width: 1439px) {
+        @media (max-width: 89.9375rem) {
           height: 70%;
           width: 70%;
         }
-        @media (max-width: 768px) {
+        @media (max-width: 48rem) {
           height: 50%;
           width: 50%;
         }
-        @media (max-width: 425px) {
+        @media (max-width: 26.5625rem) {
           height: 70%;
           width: 70%;
         }
@@ -89,33 +89,33 @@ section.hero {
 
     .logo {
       text-align: center;
-      padding-top: 90px;
-      padding-bottom: 100px;
+      padding-top: 5.625rem;
+      padding-bottom: 6.25rem;
 
-      @media (max-width: 1439px) {
-        padding-top: 0px;
-        padding-bottom: 40px;
+      @media (max-width: 89.9375rem) {
+        padding-top: 0rem;
+        padding-bottom: 2.5rem;
       }
-      @media (max-width: 768px) {
+      @media (max-width: 48rem) {
       }
-      @media (max-width: 425px) {
-        padding-top: 50px;
+      @media (max-width: 26.5625rem) {
+        padding-top: 3.125rem;
       }
 
-      @media (max-width: 375px) {
+      @media (max-width: 23.4375rem) {
       }
 
       img {
-        @media (max-width: 1439px) {
+        @media (max-width: 89.9375rem) {
           height: 75%;
           width: 75%;
         }
-        @media (max-width: 768px) {
+        @media (max-width: 48rem) {
           height: 50%;
           width: 50%;
         }
 
-        @media (max-width: 425px) {
+        @media (max-width: 26.5625rem) {
           height: 70%;
           width: 70%;
         }
@@ -140,58 +140,62 @@ section.hero {
       }
     }
     .waves {
-      @media (max-width: 1439px) {
+      @media (max-width: 89.9375rem) {
         transform: scale(0.5);
       }
-      @media (max-width: 768px) {
+      @media (max-width: 48rem) {
       }
-      @media (max-width: 425px) {
+      @media (max-width: 26.5625rem) {
       }
-      @media (max-width: 375px) {
+      @media (max-width: 23.4375rem) {
       }
       .wave-1 {
-        margin-left: -50px;
+        margin-left: -3.125rem;
       }
       .wave-3 {
-        margin-left: 30px;
+        margin-left: 1.875rem;
       }
     }
   }
 }
 section.intro {
-  padding-top: 155px;
-  padding-bottom: 200px;
+  padding-top: 9.6875rem;
+  padding-bottom: 12.5rem;
 
-  @media (max-width: 991px) {
-    padding-bottom: 100px;
+  @media (max-width: 61.9375rem) {
+    padding-bottom: 6.25rem;
+  }
+
+  @media (max-width: 26.625rem) {
+    padding-top: 3.125rem;
   }
 
   h1 {
     font-family: $comforta;
-    font-size: 48px;
+    font-size: 3rem;
   }
 
   p {
     font-family: $comforta;
-    font-size: 19.2px;
+    font-size: 1.2rem;
   }
   .illus {
-    @media (max-width: 1439px) {
+    @media (max-width: 89.9375rem) {
       transform: scale(0.7);
     }
-    @media (max-width: 991px) {
+    @media (max-width: 61.9375rem) {
       transform: scale(0.7);
       position: relative;
-      left: -150px;
+      left: -9.375rem;
     }
-    @media (max-width: 769px) {
+    @media (max-width: 48.0625rem) {
       transform: scale(0.5);
     }
 
-    @media (max-width: 425px) {
-      left: -20px;
+    @media (max-width: 26.5625rem) {
+      left: -1.25rem;
     }
-    @media (max-width: 375px) {
+    @media (max-width: 23.4375rem) {
     }
 
     .man {
@@ -199,7 +203,7 @@ section.intro {
       margin: 0;
       z-index: 2;
 
-      @media (max-width: 426px) {
+      @media (max-width: 26.625rem) {
         position: relative;
       }
     }
@@ -207,19 +211,19 @@ section.intro {
       position: absolute;
       z-index: 1;
 
-      @media (max-width: 426px) {
+      @media (max-width: 26.625rem) {
         position: relative;
-        margin-top: -750px;
+        margin-top: -46.875rem;
       }
     }
   }
 
   .element {
-    font-size: 144px;
+    font-size: 9rem;
     font-weight: 700;
     color: #05ffa1;
     font-family: $comforta;
-    height: 222px;
+    height: 13.875rem;
     position: relative;
     display: flex;
     justify-content: center;
@@ -227,58 +231,58 @@ section.intro {
 
     z-index: 2;
 
-    @media (max-width: 1439px) {
-      font-size: 80px;
+    @media (max-width: 89.9375rem) {
+      font-size: 5rem;
     }
-    @media (max-width: 769px) {
-      padding-top: 25px;
-      font-size: 60px;
+    @media (max-width: 48.0625rem) {
+      padding-top: 1.5625rem;
+      font-size: 3.75rem;
     }
   }
   .name {
-    margin-bottom: 300px;
+    margin-bottom: 18.75rem;
     z-index: 3;
 
-    @media (max-width: 769px) {
-      margin-bottom: 100px;
+    @media (max-width: 48.0625rem) {
+      margin-bottom: 6.25rem;
     }
 
     h1 {
-      @media (max-width: 769px) {
-        font-size: 36px;
+      @media (max-width: 48.0625rem) {
+        font-size: 2.25rem;
       }
-      @media (max-width: 426px) {
-        font-size: 29px;
+      @media (max-width: 26.625rem) {
+        font-size: 1.8125rem;
       }
     }
 
     p {
-      @media (max-width: 769px) {
-        font-size: 15px;
+      @media (max-width: 48.0625rem) {
+        font-size: 0.9375rem;
       }
     }
     img {
-      margin-top: 20px;
-      padding-left: 50px;
+      margin-top: 1.25rem;
+      padding-left: 3.125rem;
     }
   }
 }
 section.skills {
-  padding-top: 180px;
+  padding-top: 11.25rem;
 
-  @media (max-width: 991px) {
-    padding-top: 100px;
+  @media (max-width: 61.9375rem) {
+    padding-top: 6.25rem;
   }
 
   h1 {
     font-family: $tangerbold;
     font-style: normal;
     font-weight: bold;
-    font-size: 144px;
-    line-height: 144px;
+    font-size: 9rem;
+    line-height: 9rem;
 
-    @media (max-width: 991px) {
-      font-size: 96px;
+    @media (max-width: 61.9375rem) {
+      font-size: 6rem;
       text-align: center;
     }
   }
@@ -289,21 +293,21 @@ section.skills {
     align-content: center;
     align-items: center;
     justify-items: center;
-    padding-top: 150px;
-    padding-bottom: 200px;
+    padding-top: 9.375rem;
+    padding-bottom: 12.5rem;
 
-    @media (max-width: 991px) {
-      padding-top: 100px;
-      padding-bottom: 100px;
+    @media (max-width: 61.9375rem) {
+      padding-top: 6.25rem;
+      padding-bottom: 6.25rem;
     }
 
     .skill-card {
       display: flex;
-      max-height: 173px;
-      max-width: 173px;
+      max-height: 10.8125rem;
+      max-width: 10.8125rem;
       // background-color: rgb(226, 212, 212, 0.2);
-      border-radius: 30px;
-      margin-bottom: 45px;
+      border-radius: 1.875rem;
+      margin-bottom: 2.8125rem;
       animation: fill 10s infinite;
       animation-timing-function: ease-in-out;
 
@@ -323,7 +327,7 @@ section.skills {
         margin: auto;
         max-width: 100%;
 
-        @media (max-width: 769px) {
+        @media (max-width: 48.0625rem) {
           height: 50%;
           max-width: 50%;
         }
@@ -333,8 +337,8 @@ section.skills {
       display: none;
 
       h1 {
-        font-size: 20px;
-        line-height: 25px;
+        font-size: 1.25rem;
+        line-height: 1.5625rem;
         font-family: $comforta;
         text-align: center;
       }
@@ -343,14 +347,14 @@ section.skills {
     // .skill-card:hover + .card-hide {
     //   display: flex;
     //   justify-content: center;
-    //   border-radius: 30px;
+    //   border-radius: 1.875rem;
     //   animation: fill 0.6s forwards;
-    //   max-height: 300px;
-    //   max-width: 300px;
+    //   max-height: 18.75rem;
+    //   max-width: 18.75rem;
     //   background-color: rgb(226, 212, 212);
-    //   padding: 25px 25px 20px 25px;
+    //   padding: 1.5625rem 1.5625rem 1.25rem 1.5625rem;
     //   z-index: 2;
-    //   margin-bottom: 50px;
+    //   margin-bottom: 3.125rem;
     // }
 
     @keyframes fill {
@@ -371,27 +375,27 @@ section.contact {
     font-family: $tangerbold;
     font-style: normal;
     font-weight: bold;
-    font-size: 144px;
-    line-height: 144px;
+    font-size: 9rem;
+    line-height: 9rem;
 
-    @media (max-width: 991px) {
-      font-size: 96px;
+    @media (max-width: 61.9375rem) {
+      font-size: 6rem;
       text-align: center;
     }
   }
 
   .contact-wrapper {
-    padding-top: 120px;
+    padding-top: 7.5rem;
 
-    @media (max-width: 426px) {
-      margin: 0 25px;
+    @media (max-width: 26.625rem) {
+      margin: 0 1.5625rem;
     }
 
-    padding-bottom: 150px;
+    padding-bottom: 9.375rem;
     .contact-icons {
       display: flex;
       justify-content: space-between;
-      font-size: 60px;
+      font-size: 3.75rem;
 
       a {
         color: black;
@@ -401,11 +405,11 @@ section.contact {
         }
       }
       h3 {
-        font-size: 25px;
+        font-size: 1.5625rem;
         font-family: $comforta;
 
-        @media (max-width: 426px) {
-          font-size: 16px;
+        @media (max-width: 26.625rem) {
+          font-size: 1rem;
         }
       }
     }
@@ -416,71 +420,71 @@ section.quote {
 
   #quote-box {
     width: 100%;
-    max-height: 500px;
-    padding-bottom: 50px;
+    max-height: 31.25rem;
+    padding-bottom: 3.125rem;
     text-align: center;
     background-color: #414361;
-    padding-top: 100px;
-    border-radius: 5px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-top: 6.25rem;
+    border-radius: 0.3125rem;
+    padding-left: 9.375rem;
+    padding-right: 9.375rem;
 
-    @media (max-width: 426px) {
+    @media (max-width: 26.625rem) {
       padding-left: 0;
       padding-right: 0;
-      padding-top: 50px;
+      padding-top: 3.125rem;
     }
 
     #text {
-      margin-bottom: 25px;
-      font-size: 50px;
-      line-height: 50px;
+      margin-bottom: 1.5625rem;
+      font-size: 3.125rem;
+      line-height: 3.125rem;
       font-family: $comforta;
-      margin-top: 50px;
+      margin-top: 3.125rem;
 
-      @media (max-width: 1441px) {
-        font-size: 45px;
-        line-height: 50px;
+      @media (max-width: 90.0625rem) {
+        font-size: 2.8125rem;
+        line-height: 3.125rem;
       }
-      @media (max-width: 1200px) {
-        font-size: 36px;
-        line-height: 40px;
+      @media (max-width: 75rem) {
+        font-size: 2.25rem;
+        line-height: 2.5rem;
       }
-      @media (max-width: 991px) {
-        font-size: 30px;
-        margin: 0 15px;
-        line-height: 35px;
+      @media (max-width: 61.9375rem) {
+        font-size: 1.875rem;
+        margin: 0 0.9375rem;
+        line-height: 2.1875rem;
       }
-      @media (max-width: 426px) {
-        font-size: 27px;
-        line-height: 30px;
+      @media (max-width: 26.625rem) {
+        font-size: 1.6875rem;
+        line-height: 1.875rem;
       }
 
-      @media (max-width: 376px) {
-        font-size: 24px;
-        line-height: 30px;
+      @media (max-width: 23.5rem) {
+        font-size: 1.5rem;
+        line-height: 1.875rem;
       }
     }
 
     #author {
-      margin-bottom: 20px;
-      font-size: 40px;
-      line-height: 30px;
+      margin-bottom: 1.25rem;
+      font-size: 2.5rem;
+      line-height: 1.875rem;
       font-family: $tangerine;
 
-      @media (max-width: 1441px) {
-        font-size: 36px;
+      @media (max-width: 90.0625rem) {
+        font-size: 2.25rem;
       }
-      @media (max-width: 1200px) {
-        font-size: 30px;
-      }
-
-      @media (max-width: 991px) {
-        font-size: 25px;
+      @media (max-width: 75rem) {
+        font-size: 1.875rem;
       }
 
-      @media (max-width: 376px) {
-        font-size: 20px;
+      @media (max-width: 61.9375rem) {
+        font-size: 1.5625rem;
+      }
+
+      @media (max-width: 23.5rem) {
+        font-size: 1.25rem;
       }
     }
     .buttons {
@@ -489,12 +493,12 @@ section.quote {
       align-content: flex-start;
 
       font-family: $comforta;
-      bottom: 0.3125rem;
+      bottom: 5px;
 
       button {
-        padding: 15px;
-        font-size: 25px;
-        border-radius: 15px;
+        padding: 0.9375rem;
+        font-size: 1.5625rem;
+        border-radius: 0.9375rem;
         background-color: transparent;
         color: white;
         border-color: transparent;
