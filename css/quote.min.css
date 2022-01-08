@@ -1,0 +1,2 @@
+#quote-box{border-radius:3px;position:relative;width:500px;height:auto;padding:40px 50px;display:table;background-color:#78d0e6}#quote-box #text{margin-bottom:25px;font-size:30px;line-height:30px}#quote-box #author{margin-bottom:20px;font-size:25px;line-height:30px}#quote-box .buttons{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;margin-top:15px}#quote-box .buttons #new-quote{font-size:35px}
+/*# sourceMappingURL=quote.min.css.map */

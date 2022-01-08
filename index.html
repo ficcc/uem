@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/main.css" />
+  </head>
+  <body>
+    <main>
+      <section class="hero" id="hero">
+        <div class="container">
+          <div class="row">
+            <div class="lamp-wrapper">
+              <div
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="700"
+              >
+                <div class="lamp">
+                  <img src="/images/lightlamp.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="logo-wrapper">
+              <div
+                data-aos="zoom-in"
+                data-aos-easing="linear"
+                data-aos-duration="700"
+              >
+                <div class="logo">
+                  <img src="/images/logo.png" alt="" />
+                </div>
+                <div class="quot-wrapper">
+                  <h1
+                    data-aos="zoom-in"
+                    data-aos-easing="linear"
+                    data-aos-duration="700"
+                  >
+                    Pixel to art
+                  </h1>
+                </div>
+              </div>
+            </div>
+
+            <div class="waves-wrapper" id="waves-wrapper">
+              <div class="waves" id="waves">
+                <div class="col-2">
+                  <div class="wave-1">
+                    <div
+                      data-aos="fade-right"
+                      data-aos-easing="linear"
+                      data-aos-duration="1600"
+                    >
+                      <img src="/images/1.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="offset-2 col-2">
+                  <div class="wave-2">
+                    <div
+                      data-aos="fade-down"
+                      data-aos-easing="linear"
+                      data-aos-duration="1600"
+                    >
+                      <img src="/images/2.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="offset-4 col-2">
+                  <div class="wave-3">
+                    <div
+                      data-aos="fade-left"
+                      data-aos-easing="linear"
+                      data-aos-duration="1600"
+                    >
+                      <img src="/images/3.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="intro" id="intro">
+        <div class="container">
+          <div class="row">
+            <div class="illus" id="illus">
+              <div class="man" id="man">
+                <img src="/images/man.png" alt="" />
+              </div>
+              <div class="circle" id="circle">
+                <div
+                  data-aos="zoom-in-up"
+                  data-aos-easing="linear"
+                  data-aos-duration="1600"
+                >
+                  <img src="/images/circle.png" alt="" />
+                </div>
+              </div>
+            </div>
+
+            <div class="offset-lg-4 col-lg-8 offset-sm-3 col-sm-9">
+              <span class="element"></span>
+            </div>
+            <div class="offset-lg-7 col-lg-4 offset-sm-2">
+              <div class="name text-center">
+                <h1>I'm Uhem</h1>
+                <p>Showcasing your Imagination to Web</p>
+
+                <img src="/images/line.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="quote" id="quotes">
+        <div class="wrapper" id="wrapper">
+          <div class="quote-box" id="quote-box">
+            <div class="quote-author text-white" id="author"></div>
+            <div class="buttons">
+              <button
+                class="btn btn-primary"
+                id="new-quote"
+                onclick="generateQuotes()"
+              >
+                <i class="fas fa-sync-alt"></i>
+              </button>
+            </div>
+            <div class="quote-text text-white" id="text"></div>
+          </div>
+        </div>
+      </section>
+      <section class="skills" id="skills">
+        <div class="container">
+          <div class="row">
+            <div class="offset-lg-1">
+              <h1>Skills</h1>
+            </div>
+            <div
+              class="skills-wrapper"
+              id="skills-wrapper"
+              data-tilt
+              data-tilt-reverse="true"
+            >
+              <div class="skill-col-1">
+                <div class="skill-card gulp">
+                  <img src="/images/gulp 1.png " alt="" />
+                </div>
+                <div class="card-hide gulp">
+                  <h1>Gulp</h1>
+                </div>
+              </div>
+              <div class="skill-col-2">
+                <div class="skill-card css">
+                  <img src="/images/css 1.png" alt="" />
+                </div>
+                <div class="card-hide css">
+                  <h1>CSS3</h1>
+                </div>
+                <div class="skill-card node">
+                  <img src="/images/node 1.png" alt="" />
+                </div>
+                <div class="card-hide node">
+                  <h1>Node.js</h1>
+                </div>
+              </div>
+              <div class="skill-col-3">
+                <div class="skill-card html">
+                  <img src="/images/html5 1.png" alt="" />
+                </div>
+                <div class="card-hide html">
+                  <h1>HTML5</h1>
+                </div>
+                <div class="skill-card js">
+                  <img src="/images/js 1.png" alt="" />
+                </div>
+                <div class="card-hide js">
+                  <h1>JavaScript</h1>
+                </div>
+                <div class="skill-card bs">
+                  <img src="/images/bs 1.png " alt="" />
+                </div>
+                <div class="card-hide bs">
+                  <h1>BoostStrap</h1>
+                </div>
+              </div>
+              <div class="skill-col-4">
+                <div class="skill-card sass">
+                  <img src="/images/sass 1.png" alt="" />
+                </div>
+                <div class="card-hide sass">
+                  <h1>SASS</h1>
+                </div>
+                <div class="skill-card al">
+                  <img src="/images/al 1.png " alt="" />
+                </div>
+                <div class="card-hide al">
+                  <h1>Abelton Live</h1>
+                </div>
+              </div>
+              <div class="skill-col-5">
+                <div class="skill-card figma">
+                  <img src="/images/figma 1.png " alt="" />
+                </div>
+                <div class="card-hide figma">
+                  <h1>Figma</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact">
+        <div class="container">
+          <div class="row">
+            <div class="offset-lg-1">
+              <h1>Contact</h1>
+            </div>
+            <div class="offset-lg-3 col-lg-6">
+              <div class="contact-wrapper">
+                <div class="contact-icons">
+                  <div
+                    class="icon-card"
+                    data-aos="zoom-in-up"
+                    data-aos-easing="linear"
+                    data-aos-duration="900"
+                    data-aos-delay="0"
+                  >
+                    <a href=""><i class="fab fa-github"></i> </a>
+                    <div class="cont-hide">
+                      <h3>github</h3>
+                    </div>
+                  </div>
+
+                  <div
+                    class="icon-card"
+                    data-aos="zoom-in-up"
+                    data-aos-easing="linear"
+                    data-aos-duration="900"
+                    data-aos-delay="400"
+                  >
+                    <a href=""> <i class="fab fa-linkedin"></i></a>
+                    <div class="cont-hide">
+                      <h3>linkedin</h3>
+                    </div>
+                  </div>
+                  <div
+                    class="icon-card"
+                    data-aos="zoom-in-up"
+                    data-aos-easing="linear"
+                    data-aos-duration="900"
+                    data-aos-delay="800"
+                  >
+                    <a href=""><i class="fas fa-envelope"></i></a>
+                    <div class="cont-hide">
+                      <h3>e-mail</h3>
+                    </div>
+                  </div>
+                  <div
+                    class="icon-card"
+                    data-aos="zoom-in-up"
+                    data-aos-easing="linear"
+                    data-aos-duration="900"
+                    data-aos-delay="1200"
+                  >
+                    <a href=""> <i class="fas fa-file-download"></i></a>
+                    <div class="cont-hide">
+                      <h3>CV</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js"
+      integrity="sha512-K9tDZvc8nQXR1DMuT97sct9f40dilGp97vx7EXjswJA+/mKqJZ8vcZLifZDP+9t08osMLuiIjd4jZ0SM011Q+w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="/js/quote.js"></script>
+    <script src="/js/mmpara.js"></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
