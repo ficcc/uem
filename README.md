@@ -1,3 +1,3 @@
 # uem
-Simple Design using HTML, scss, js and tools such as bootstrap and AOS.js
+Simple Design using HTML, scss, js and tools such as gulp.js,bootstrap and AOS.js
 
